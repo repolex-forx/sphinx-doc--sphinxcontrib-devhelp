@@ -130,7 +130,61 @@
       "ast": [
         "aggregate/ast/0177fb44f165305f27b34e69e6e7e5ed6f24d752/chunk-001.nq.gz"
       ],
-      "repolex": "aggregate/repolex/0177fb44f165305f27b34e69e6e7e5ed6f24d752/chunk-001.nq.gz"
+      "repolex": "aggregate/repolex/0177fb44f165305f27b34e69e6e7e5ed6f24d752/chunk-001.nq.gz",
+      "lsp": "aggregate/lsp/0177fb44f165305f27b34e69e6e7e5ed6f24d752.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+          "githubTag": "9.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.5.5",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubCommit": "fc16d8d04d86aa94a8aac14bbb87089b64d443a1",
+          "githubTag": "0.5.5",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "mypy",
+          "ecosystem": "PYPI",
+          "version": "2.4.1",
+          "githubOrg": "python",
+          "githubRepo": "mypy",
+          "githubCommit": "ad02a35e623d105ab7340f75558716bc09f8242e",
+          "githubTag": "v2.4.1",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "types-docutils",
+          "ecosystem": "PYPI",
+          "version": "0.23.0.20261107",
+          "githubOrg": "python",
+          "githubRepo": "typeshed",
+          "githubUrl": "https://github.com/python/typeshed",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx",
+          "ecosystem": "PYPI",
+          "version": "5",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:pyproject.toml"
+        }
+      ]
     }
   ],
   "commit": "commit/commit.nq.gz",
